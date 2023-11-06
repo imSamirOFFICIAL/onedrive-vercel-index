@@ -21,6 +21,7 @@ import {
   traverseFolder,
 } from './MultiFileDownloader'
 
+import { layouts } from './SwitchLayout'
 import Loading, { LoadingIcon } from './Loading'
 import FourOhFour from './FourOhFour'
 import Auth from './Auth'
