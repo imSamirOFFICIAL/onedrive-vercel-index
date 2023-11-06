@@ -2,7 +2,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { IconName } from '@fortawesome/fontawesome-svg-core'
 import { Dialog, Transition } from '@headlessui/react'
 import toast, { Toaster } from 'react-hot-toast'
-import { useHotkeys } from 'react-hotkeys-hook'
 
 import Link from 'next/link'
 import Image from 'next/image'
@@ -23,11 +22,6 @@ const Navbar = () => {
 
   const [searchOpen, setSearchOpen] = useState(false)
   const openSearchBox = () => setSearchOpen(true)
-
-  useHotkeys(`${os === 'mac' ? 'meta' : 'ctrl'}+k`, e => {
-    openSearchBox()
-    e.preventDefault()
-  })
 
   useEffect(() => {
     const storedToken = () => {
