@@ -7,7 +7,6 @@ import { serverSideTranslations } from 'next-i18next/serverSideTranslations'
 import siteConfig from '../../../config/site.config'
 import apiConfig from '../../../config/api.config'
 import Navbar from '../../components/Navbar'
-import Footer from '../../components/Footer'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function OAuthStep1() {
@@ -141,8 +140,6 @@ export default function OAuthStep1() {
           </div>
         </div>
       </main>
-
-      <Footer />
     </div>
   )
 }
