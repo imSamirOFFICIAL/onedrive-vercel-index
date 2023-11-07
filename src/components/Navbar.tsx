@@ -11,6 +11,7 @@ import { useTranslation } from 'next-i18next'
 
 import siteConfig from '../../config/site.config'
 import SearchModal from './SearchModal'
+import SwitchLang from './SwitchLang'
 import useDeviceOS from '../utils/useDeviceOS'
 
 const Navbar = () => {
@@ -72,6 +73,8 @@ const Navbar = () => {
               <span className="truncate text-sm font-medium">{t('Search')}</span>
             </div>
           </button>
+
+          <SwitchLang />
 
           {siteConfig.links.length !== 0 &&
             siteConfig.links.map((l: { name: string; link: string }) => (
