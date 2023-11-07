@@ -4051,7 +4051,7 @@ packages:
     dev: false
 
   /plyr@3.7.8:
-    resolution: {integrity: sha512-ORULENBvEvvzMYXRQBALDmEi8P+wZt1Hr/NvHqchu/t7E2xJKNkRYWx0qCA1HETIGZ6zobrOVgqeAUqWimS7fQ==}
+    resolution: {integrity: sha512-yG/EHDobwbB/uP+4Bm6eUpJ93f8xxHjjk2dYcD1Oqpe1EcuQl5tzzw9Oq+uVAzd2lkM11qZfydSiyIpiB8pgdA==}
     dependencies:
       core-js: 3.27.2
       custom-event-polyfill: 1.0.7
