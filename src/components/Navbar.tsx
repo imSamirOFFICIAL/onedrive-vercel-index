@@ -70,7 +70,14 @@ const Navbar = () => {
           >
             <div className="flex items-center space-x-2">
               <FontAwesomeIcon className="h-4 w-4" icon="search" />
-              <span className="truncate text-sm font-medium">{t('Search')}</span>
+              <span className="truncate text-sm font-medium">{t('Search ...')}</span>
+            </div>
+
+            <div className="hidden items-center space-x-1 md:flex">
+              <div className="rounded-lg bg-gray-200 px-2 py-1 text-xs font-medium dark:bg-gray-700">
+                {os === 'mac' ? '⌘' : 'Ctrl'}
+              </div>
+              <div className="rounded-lg bg-gray-200 px-2 py-1 text-xs font-medium dark:bg-gray-700">K</div>
             </div>
           </button>
 
