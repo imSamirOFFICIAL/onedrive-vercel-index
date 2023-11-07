@@ -7,7 +7,7 @@ const icons: { [key: string]: [IconPrefix, IconName] } = {
   powerpoint: ['far', 'file-powerpoint'],
   excel: ['far', 'file-excel'],
   audio: ['far', 'file-audio'],
-  video: ['far', 'file-video'],
+  video: ['fas', 'video'],
   archive: ['far', 'file-archive'],
   code: ['far', 'file-code'],
   text: ['far', 'file-alt'],
