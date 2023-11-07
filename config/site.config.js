@@ -1,5 +1,4 @@
 module.exports = {
-
   userPrincipalName: process.env.NEXT_PUBLIC_USER_PRINCIPLE_NAME || 'asamir192039@bscse.uiu.ac.bd',
 
   icon: '/icons/128.png',
